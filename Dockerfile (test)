@@ -1,0 +1,21 @@
+FROM node:14.15.0
+ENV HOST 0.0.0.0 PORT 3003
+
+RUN mkdir -p /usr/src/front-preconsultatest2
+
+WORKDIR  /usr/src/front-preconsultatest2
+
+ 
+
+COPY . .
+
+EXPOSE 3004
+
+RUN npm install
+RUN npm i vue-html2pdf
+#RUN npm run build
+
+CMD [ "npm", "start" ]
+
+ENTRYPOINT npm run dev
+#ENTRYPOINT npm run start

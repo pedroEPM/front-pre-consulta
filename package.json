@@ -1,0 +1,31 @@
+{
+  "name": "pre-consulta",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/pwa": "^3.0.2",
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.5",
+    "html2canvas": "^1.0.0-rc.7",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
+    "moment": "^2.29.1",
+    "nuxt": "^2.14.6",
+    "vue-chartjs": "^3.5.1",
+    "vue-html2pdf": "^1.8.0",
+    "vue-pdf-app": "^2.1.0",
+    "vue-zoomer": "^0.3.9",
+    "xlsx": "^0.14.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3"
+  }
+}
